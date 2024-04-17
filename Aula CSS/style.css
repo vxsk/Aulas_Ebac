@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    position: relative;
+    margin-top: 1.5%;
+    background-color: green;
+    padding: 16px;
+}
+
+header .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.artigos {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    height: 230px;
+}
+
+.artigos p {
+    width: 50%;
+}
+
+section h1 {
+    margin-top: 16px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    position: relative;
+}
+
+.artigos article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    left: 450px;
+    top: 30px;
+    font-size: 28px;
+    color: green;
+}
+
+.artigos article p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 455px;
+    bottom: 185px;
+}
+
+.artigos article {
+    height: 290px;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+section#sports {
+    background-color: cornsilk;
+}
+
+section#economy { 
+    background-color: cadetblue;
+}
+
+section#technology  {
+    background-color: burlywood;
+}
+
+section#entertainment   {
+    background-color: darkgray;
+}
